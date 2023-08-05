@@ -6,7 +6,7 @@
 
 from urllib.request import urlopen
 
-html = urlopen("https://www.livenewsnow.com/american/cnbc-america.html")
+html = urlopen("https://www.newslive.com/american/cnbc.html")
 data = str(html.read())
 start = data.find("file: ")
 end = data.find(",autostart:")
