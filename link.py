@@ -9,7 +9,8 @@ channel_links = {
     "FoxNews": "https://www.newslive.com/featured/fox-news.html",
     "FoxBusiness": "https://www.newslive.com/business/fox-business-network-fbn.html",
     "CBCNews": "https://www.newslive.com/canadian-news/cbc-news.html",
-    "AlJazeeraAmerica": "https://www.newslive.com/american/al-jazeera-america.html"
+    "AlJazeeraAmerica": "https://www.newslive.com/american/al-jazeera-america.html",
+    "CNBC": "https://www.newslive.com/american/cnbc.html"
 }
 
 def get_channel_link(channel_name):
@@ -33,4 +34,4 @@ if __name__ == "__main__":
     if link:
         print(link)
     else:
-        print("Invalid channel name. Available channels: CNN, FoxNews, FoxBusiness, CBCNews, AlJazeeraAmerica")
+        print("Invalid channel name. Available channels: CNN, FoxNews, FoxBusiness, CBCNews, AlJazeeraAmerica, CNBC")
