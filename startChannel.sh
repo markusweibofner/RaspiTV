@@ -8,7 +8,7 @@ fi
 
 link=$(python3 link.py $channel)
 if [ -z "$link" ]; then
-    echo "Invalid channel name. Available channels: CNN, FoxNews, FoxBusiness, CBCNews, AlJazeeraAmerica"
+    echo "Invalid channel name. Available channels: CNN, FoxNews, FoxBusiness, CBCNews, AlJazeeraAmerica, CNBC"
     exit 1
 fi
 
